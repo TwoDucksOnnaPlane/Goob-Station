@@ -34,7 +34,7 @@
     startPrice: 10000
     endPrice: 200
   - type: MovedByPressure #Goob - space wind moment
-    enabled: false 
+    enabled: false
 
 - type: entity
   parent: BaseAnomalyCore
@@ -144,6 +144,9 @@
     color: "#ffffaa"
     castShadows: false
   - type: Electrified
+  - type: Tag #Goob - Modsuit Core alternative
+    tags:
+    - ModsuitCore
 
 - type: entity
   parent: BaseAnomalyCore
