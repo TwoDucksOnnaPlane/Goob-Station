@@ -15,7 +15,7 @@ public sealed partial class CCVars
     ///     Whether gas differences will move entities.
     /// </summary>
     public static readonly CVarDef<bool> SpaceWind =
-        CVarDef.Create("atmos.space_wind", true, CVar.SERVERONLY); // Goobstation - enable
+        CVarDef.Create("atmos.space_wind", false, CVar.SERVERONLY); // begone once more demon
 
     /// <summary>
     ///     Divisor from maxForce (pressureDifference * 2.25f) to force applied on objects.
